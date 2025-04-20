@@ -1,0 +1,72 @@
+# =============================
+# Python / Streamlit
+# =============================
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.tmp
+
+# Virtual Environments
+venv/
+env/
+ENV/
+myenvironment/
+
+# Streamlit cache
+.streamlit/config.toml
+
+# Media files
+*.mp3
+*.wav
+*.ogg
+
+# =============================
+# Node.js / Express / React
+# =============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Build files
+/build/
+/dist/
+/coverage/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# React specific
+*.env
+*.env.*
+*.cache/
+*.webmanifest
+
+# Mac & Windows OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# VS Code
+.vscode/
+
+# =============================
+# Misc
+# =============================
+*.swp
+*.swo
+*.bak
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+.ipynb_checkpoints/
